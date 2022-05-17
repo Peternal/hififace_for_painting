@@ -28,7 +28,7 @@ from torch.utils.data import DataLoader
 from torchvision import datasets
 from torchvision import transforms
 
-import utils
+import util as utils
 from net import Net, Vgg16
 
 from option import Options
