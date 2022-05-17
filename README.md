@@ -49,9 +49,9 @@ python hififace_inference.py --gpus 0 --model_config config/model.yaml --model_c
 ### Style Transfer
 Transfer picture to `--style-imag` style.
 ```bash
-python MSG_main.py eval --content-image assets/result/result.png \ 
---style-image assets/21styles/picasso_selfport1907.jpg --model models/21styles.model --content-size 256 \
---output-image assets/result/transfer_result.png
+python MSG_main.py eval --content-image assets/inference_samples/03_target.png\ 
+--style-image assets/21styles/picasso_selfport1907.jpg --model models/21styles.model\ 
+--content-size 256 --output-image assets/transfer_result.png
 ```
 Pre-trained style stored in `assets/21styles` \
 More pre-trained (on our dataset) to be added later
