@@ -47,6 +47,9 @@ python hififace_inference.py --gpus 0 --model_config config/model.yaml --model_c
 ```
 
 ### Style Transfer
+
+Our style transfer network shows in the [notebook](style_tranfer.ipynb)
+
 Transfer picture to `--style-imag` style.
 ```bash
 python MSG_main.py eval --content-image assets/inference_samples/03_target.png \ 
